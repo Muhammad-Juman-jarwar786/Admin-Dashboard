@@ -1,0 +1,40 @@
+.description__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* margin-left: -13rem; */
+    width: 28rem;
+  }
+  
+  .description__label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .description__textarea {
+    border: 1px solid #ccc;
+    /* width: 100rem; */
+    border-radius: 5px;
+    padding: 50px; 
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    resize: auto;
+  }
+  
+  .description__textarea:hover,
+  .description__textarea:focus {
+    outline: none;
+    border-color: #666;
+  }
+  
+  .description__textarea:focus {
+    box-shadow: 0 0 5px #ccc;
+  }
+  
+  .description__textarea:active {
+    border-color: #000;
+  }
+  

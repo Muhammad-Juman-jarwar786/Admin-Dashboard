@@ -1,0 +1,118 @@
+.home-button {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    /* right: 20px; */
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .home-button:hover {
+    background-color: #555;
+    color: #fff;
+  }
+
+  .customer-heading-div {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+  .add-customer-heading {
+    text-align: center;
+    margin-top: 4rem;
+    background: rgb(18, 211, 12);
+    background: linear-gradient(34deg, rgb(56, 158, 9) 0%, rgb(34, 173, 6) 50%, rgb(51, 255, 1) 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+  }
+  
+  .input-row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+  
+  .input-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    width: max-content;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  .select-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    appearance: none;
+    width: 13rem;
+  }
+  
+  .select-field:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .add-customer-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .add-customer-button:hover {
+    background-color: #555;
+  }
+  
+  .address-field {
+    width: 33%;
+  }
+
+  /* .address-label {
+    text-align: left;
+  } */

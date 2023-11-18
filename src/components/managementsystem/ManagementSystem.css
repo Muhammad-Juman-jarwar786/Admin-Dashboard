@@ -1,0 +1,57 @@
+.icon-cutomer-1{
+    margin-right: 140px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+/* display: inline; */
+}
+.Group {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    margin-left: 2rem;
+}
+
+/* Define some common styles for the buttons and input */
+.btn-Home{
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  /* margin: 5px; */
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background-color: #f44336;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a hover effect to the "Home" button */
+.btn-Home:hover {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.header-logo {
+    position: relative;
+    /* top: 1rem; */
+    
+    left: 40%;
+    /* margin-bottom: 10rem; */
+}
+
+.faShop {
+    font-size: 2rem;
+    position: relative;
+    z-index: 3;
+    right: 40%; 
+ }
